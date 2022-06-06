@@ -3,6 +3,7 @@ import {BASICURL} from "./constants"
 import { useRef } from "react"
 import { Button } from "reactstrap"
 import axios from 'axios'
+import logo from "./f-wordmark-logo-white.webp"
 export default function NavBar(props) {
     const handleExpand = () => {
         props.setExpand(prevState =>!prevState)
@@ -32,7 +33,7 @@ export default function NavBar(props) {
             <NavbarToggler onClick = {handleExpand} className="ml-5" />
 
             <NavbarBrand href="/">
-                <img src="./f-wordmark-logo-white.webp" alt="" height="24px"/>
+                <img src={logo} alt="" height="24px"/>
             </NavbarBrand>
             <Button onClick={handleClick} color="primary" style={{ height: "fit-to-content" }}>
                 New  +
