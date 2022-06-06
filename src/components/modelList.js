@@ -11,7 +11,7 @@ const ModelList = props => {
         axios.get(BASICURL).then(res => {
             setAllModels(res.data)
 
-        }).catch(() => Alert("some error occured"))
+        }).catch(() => alert("some error occured"));
     }, [props.navExpand])
     const handleModel = (event) => {
         const id = Number(event.target.id)
