@@ -32,7 +32,7 @@ export default function NavBar(props) {
             <NavbarToggler onClick = {handleExpand} className="ml-5" />
 
             <NavbarBrand href="/">
-                <img src="/f-wordmark-logo-white.webp" alt="" height="24px"/>
+                <img src="./f-wordmark-logo-white.webp" alt="" height="24px"/>
             </NavbarBrand>
             <Button onClick={handleClick} color="primary" style={{ height: "fit-to-content" }}>
                 New  +

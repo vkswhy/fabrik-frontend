@@ -9,7 +9,7 @@ const Model = (props) => {
   const gltf = useLoader(GLTFLoader, props.currentModel);
   return (
     <>
-      <primitive object={gltf.scene} dispose={null}/>
+      <primitive object={gltf.scene} scale={1.4} dispose={null}/>
     </>
   );
 };

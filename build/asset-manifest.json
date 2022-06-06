@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.33bb2b1c.chunk.css",
-    "main.js": "/static/js/main.9d651f63.chunk.js",
-    "main.js.map": "/static/js/main.9d651f63.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4b47c619.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4b47c619.js.map",
-    "static/css/2.cbedb215.chunk.css": "/static/css/2.cbedb215.chunk.css",
-    "static/js/2.fecb757f.chunk.js": "/static/js/2.fecb757f.chunk.js",
-    "static/js/2.fecb757f.chunk.js.map": "/static/js/2.fecb757f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.cbedb215.chunk.css.map": "/static/css/2.cbedb215.chunk.css.map",
-    "static/css/main.33bb2b1c.chunk.css.map": "/static/css/main.33bb2b1c.chunk.css.map",
-    "static/js/2.fecb757f.chunk.js.LICENSE.txt": "/static/js/2.fecb757f.chunk.js.LICENSE.txt",
-    "static/media/Poimandres.54f0c13e.gltf": "/static/media/Poimandres.54f0c13e.gltf"
+    "main.css": "/fabrik-frontend/static/css/main.33bb2b1c.chunk.css",
+    "main.js": "/fabrik-frontend/static/js/main.f88c4e24.chunk.js",
+    "main.js.map": "/fabrik-frontend/static/js/main.f88c4e24.chunk.js.map",
+    "runtime-main.js": "/fabrik-frontend/static/js/runtime-main.b8093516.js",
+    "runtime-main.js.map": "/fabrik-frontend/static/js/runtime-main.b8093516.js.map",
+    "static/css/2.cbedb215.chunk.css": "/fabrik-frontend/static/css/2.cbedb215.chunk.css",
+    "static/js/2.fecb757f.chunk.js": "/fabrik-frontend/static/js/2.fecb757f.chunk.js",
+    "static/js/2.fecb757f.chunk.js.map": "/fabrik-frontend/static/js/2.fecb757f.chunk.js.map",
+    "index.html": "/fabrik-frontend/index.html",
+    "static/css/2.cbedb215.chunk.css.map": "/fabrik-frontend/static/css/2.cbedb215.chunk.css.map",
+    "static/css/main.33bb2b1c.chunk.css.map": "/fabrik-frontend/static/css/main.33bb2b1c.chunk.css.map",
+    "static/js/2.fecb757f.chunk.js.LICENSE.txt": "/fabrik-frontend/static/js/2.fecb757f.chunk.js.LICENSE.txt",
+    "static/media/Poimandres.54f0c13e.gltf": "/fabrik-frontend/static/media/Poimandres.54f0c13e.gltf"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b47c619.js",
+    "static/js/runtime-main.b8093516.js",
     "static/css/2.cbedb215.chunk.css",
     "static/js/2.fecb757f.chunk.js",
     "static/css/main.33bb2b1c.chunk.css",
-    "static/js/main.9d651f63.chunk.js"
+    "static/js/main.f88c4e24.chunk.js"
   ]
 }
