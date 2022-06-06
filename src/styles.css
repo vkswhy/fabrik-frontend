@@ -1,0 +1,52 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.AppItems{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+}
+input[type="file"] {
+  display: None;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.allModels{
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #212529;
+}
+.allModels button{
+  border-radius: 0;
+  height: 50px;
+  background-color: inherit;
+  color: whitesmoke;
+  border: none;
+}
+.environment{
+  margin-top:auto;
+  width: inherit;
+}
+.dropdown{
+  width: inherit;
+}
+.dropdown-menu{
+  background-color: #0c2a51;
+
+}
+.modelRenderer{
+  flex:1;
+}
+
+.nav-collapsed{
+  display: none;
+}
