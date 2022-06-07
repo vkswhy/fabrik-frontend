@@ -10,13 +10,13 @@ const ModelList = props => {
     useEffect(() => {
         axios.get(BASICURL).then(res => {
             setAllModels(res.data)
-
+            console.log(allModels)
         }).catch(() => alert("some error occured"));
     }, [props.navExpand])
     const handleModel = (event) => {
         const id = Number(event.target.id)
         props.setNavExpand(false)
-        props.changeModel(BACKENDURL+allModels[id].url)
+        props.changeModel(allModels[id].url)
     }
 
     const handlePreset = e => {
